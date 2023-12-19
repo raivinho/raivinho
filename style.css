@@ -1,39 +1,27 @@
-- *{
-    box-sizing: border-box;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Greeting</title>
+</head>
+<body>
 
-.ramis{
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    <div style="text-align: center; margin-top: 50px;">
+        <h1 style="color: red; font-size: 24px;">Merry Christmas!</h1>
+    </div>
 
-.box1, .box2, .box3, .box4{
-    width: 200px;
-    height: 200px;
-}
+    <div style="text-align: center; margin-top: 50px;">
+        <video width="640" height="360" controls>
+            <source src="your_video_source.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-.box1{
-    background-color: green;
-    border-radius: 100% 0px 0px 0px;
-}
-.box2{
-    background-color: crimson;
-    border-radius: 0px 100% 0px ;
-}
-.box3{
-    background-color: lightskyblue;
-}
-.box4{
-background-color: rgb(255, 237, 167);
-}
+    <div style="text-align: center; margin-top: 20px;">
+        <p style="font-size: 18px;">Laimīgu jauno gadu!</p>
+    </div>
 
-.mazaisramis1, .mazaisramis2{
-display: flex;
-flex-direction: column;
-{
+</body>
+</html>
+
